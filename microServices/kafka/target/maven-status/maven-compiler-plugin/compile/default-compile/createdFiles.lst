@@ -1,0 +1,5 @@
+com/example/kafka/KafkaApplication.class
+com/example/kafka/ConsumerChannels.class
+com/example/kafka/MessageListener.class
+com/example/kafka/Message.class
+com/example/kafka/Message$MessageBuilder.class

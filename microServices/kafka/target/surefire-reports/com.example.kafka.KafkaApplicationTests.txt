@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.kafka.KafkaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.943 s <<< FAILURE! - in com.example.kafka.KafkaApplicationTests
+contextLoads  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+
